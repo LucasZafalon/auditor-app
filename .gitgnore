@@ -1,0 +1,20 @@
+# Build
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+
+pyinstaller --onefile --windowed --name AuditSentinel --icon="app_icon.ico" --add-data "style.qss;." --add-data "matrix.gif;." --add-data "config.py;." --add-data "public_suffix_list.dat;whois/data" --hidden-import=bs4 --hidden-import=webtech --hidden-import=OpenSSL --hidden-import=ply.lex --hidden-import=ply.yacc main_gui.py
+
+
